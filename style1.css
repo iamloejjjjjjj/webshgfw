@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1512px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top: 80px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: roboto;
+    font-weight: bold;
+    text-shadow: 5px 12px 3px rgb(63, 117, 112); 
+}

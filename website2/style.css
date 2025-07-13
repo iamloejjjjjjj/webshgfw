@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.front-int{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner{
+    padding: 2% 3%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.banner h2{
+    color: rgb(44, 221, 44);
+    font-size: 30px;
+}
+
+.icons{
+    text-align: left;
+}
+
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+}
+
+.icons ul li a{
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.icons ul li a:hover{
+    color: rgb(44, 221, 44);
+}
+
+.wel-banner{
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 200px;
+    font-size: 50px;
+}
+
+.wel-banner h1{
+    color: rgb(44, 221, 44);
+}
+
+.wel-banner p{
+    color: white;
+    font-size: 25px;
+}
+
+.logo-banner img{
+    width: 650px;
+    height: auto;
+    position: relative;
+    left: 45%;
+    bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px rgb(44, 221, 44);
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    bottom: 265px;
+    left: 1200px;
+
+}
+.nav button{
+    width: 160px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: 'Times New Roman';
+    background-color:rgb(44, 221, 44) ;
+
+}
+
+.menu-topic a{
+    width: 130px;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-size: 10px;
+    padding: 10px 15px;
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    background-color: white;
+}
+
+.nav .menu-topic{
+    display: none;
+}
